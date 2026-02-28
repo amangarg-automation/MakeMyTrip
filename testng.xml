@@ -1,0 +1,10 @@
+<suite name="MakeMyTrip">
+    <test name="Test">
+        <parameters>
+            <parameter name="browser" value="chrome"/>
+        </parameters>
+        <classes>
+            <class name="TestCases.TC01"/>
+        </classes>
+    </test>
+</suite>
