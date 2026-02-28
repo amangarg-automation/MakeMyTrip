@@ -1,5 +1,8 @@
 <suite name="MakeMyTrip">
     <test name="Test">
+        <listeners>
+            <listener class-name="Listeners.TestListener"/>
+        </listeners>
         <parameters>
             <parameter name="browser" value="chrome"/>
         </parameters>
