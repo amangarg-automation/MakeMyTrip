@@ -18,8 +18,8 @@ public class StepLogger {
     }
     public void captureStep(String description, String expected, String actual, String status) throws IOException {
         String screenshotPath=System.getProperty("user.dir")+"/"+"CaptureScreenshots/"+System.currentTimeMillis()+".png";
-        File screenshotFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(screenshotFile,new File(screenshotPath));
+        byte[] screenshotBytes=((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+        FileUtils.writeByteArrayToFile(new File(screenshotPath),screenshotBytes);
         pdfReportGenerator.addStepToPDF(description,expected,actual,status,screenshotPath);
     }
 }

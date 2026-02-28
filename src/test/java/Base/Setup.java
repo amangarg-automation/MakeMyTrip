@@ -9,6 +9,7 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.annotations.*;
+import org.testng.xml.XmlSuite;
 import org.testng.xml.XmlTest;
 
 import java.io.File;
@@ -19,11 +20,12 @@ import java.util.Properties;
 
 public abstract class Setup {
     protected WebDriver driver;
-    protected ExtentReports extentReports;
+    protected static ExtentReports extentReports;
     protected ExtentTest extentTest;
     Logger logger= LogManager.getLogger(this.getClass());
-    Properties properties;
+    static Properties properties;
     protected ThreadLocal<PDFReportGenerator> pdfReporter=new ThreadLocal<>();
+    protected ThreadLocal<ExtentTest> extentTestThreadLocal=new ThreadLocal<>();
     protected PDFReportGenerator pdfReportGenerator;
     @BeforeSuite
     public void getProperties() throws IOException {
@@ -33,14 +35,17 @@ public abstract class Setup {
         properties.load(fis);
     }
     @BeforeTest
-    public void startExtent(XmlTest result)
-    {
-        extentReports= ExtentManager.getInstance(result.getSuite().getName());
+    public void startExtent(XmlTest xmlTest) {
+        extentReports = ExtentManager.getInstance(
+                xmlTest.getSuite().getName()
+        );
     }
     @Parameters("browser")
     @BeforeMethod
     public void startBrowser(String browserName, ITestContext context, Method method)
     {
+        System.out.println("Thread ID: " + Thread.currentThread().getId() +
+                " - " + method.getName());
         logger.info("---------------------------------Executing {}------------------------------", method.getName());
         driver=DriverFactory.getDriver(browserName);
         context.setAttribute("driver",driver);
