@@ -35,9 +35,9 @@ pipeline {
 
     post {
         always {
-            echo "Archiving Cucumber reports..."
+            echo "Archiving pdf reports..."
 
-            archiveArtifacts artifacts: '**/cucumber-htmlReport.html', allowEmptyArchive: true
+            archiveArtifacts artifacts: '**/*.pdf', allowEmptyArchive: true
         }
     }
 }
