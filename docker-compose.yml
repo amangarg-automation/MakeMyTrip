@@ -1,0 +1,20 @@
+services:
+  selenium:
+    image: selenium/standalone-chrome:latest
+    container_name: selenium_makemytrip
+    ports:
+      - '4444:4444'
+    shm_size: 2gb
+  automation:
+    build:
+     context: .
+    container_name: makemytrip_automation_tests
+    depends_on:
+      - selenium
+    volumes:
+      - ./docker_Extent_report:/app/ExtentReports
+      - ./docker_pdf_report:/app/PDFReports
+
+
+
+
