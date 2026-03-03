@@ -23,7 +23,7 @@ pipeline {
         stage('Getting Git Repo') {
             steps {
                 echo 'Getting project git repo'
-                git url: 'https://github.com/amangarg-automation/MakeMyTrip.git', branch: 'CI/Jenkins'
+                git url: 'https://github.com/amangarg-automation/MakeMyTrip.git', branch: 'CI/jenkins'
             }
         }
 
