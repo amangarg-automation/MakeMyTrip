@@ -11,6 +11,7 @@ import org.openqa.selenium.WebDriver;
 import java.io.IOException;
 
 public class Homepage extends CommonElements{
+    String appName=System.getProperty("Application_Name");
     WaitUtils waitUtils;
     public Homepage(WebDriver driver,PDFReportGenerator pdf)
     {
@@ -18,7 +19,15 @@ public class Homepage extends CommonElements{
          waitUtils=new WaitUtils(driver);
     }
     Logger logger= LogManager.getLogger(this.getClass());
-    private final By close_login_pop_up_box=By.xpath("//span[@class='commonModal__close']");
+
+        private By close_login_pop_up_box()
+        {
+            if(appName.equalsIgnoreCase("makemytrip")){
+           return By.xpath("//span[@class='commonModal__close']");}
+            else {
+                return By.xpath("//span[@class='sc-koXPp bDtzaf']");
+            }
+        }
     private final By from_city=By.id("fromCity");
     private final By to_city=By.id("toCity");
     private final By from_locator=By.xpath("//input[@placeholder='From']");
@@ -38,8 +47,8 @@ public class Homepage extends CommonElements{
     public boolean closeLoginPopUp() throws IOException {
 
         try {
-            waitUtils.waitForElementToBeClickable(close_login_pop_up_box);
-            driver.findElement(close_login_pop_up_box).click();
+            waitUtils.waitForElementToBeClickable(close_login_pop_up_box());
+            driver.findElement(close_login_pop_up_box()).click();
             stepLogger.captureStep("Close the login popup", "login pop up should be closed","loging popup is closed","pass");
         return true;
         } catch (RuntimeException e) {

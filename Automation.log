@@ -1,117 +1,122 @@
-02-03-2026 19:19:50 INFO  TC03 ----------------------------------------Started Testing-------------------------------------
-02-03-2026 19:19:50 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
-02-03-2026 20:19:00 INFO  Homepage waiting for from dropdown
-02-03-2026 20:19:00 INFO  CommonActions Clicking dropdown value
-02-03-2026 20:19:01 INFO  Homepage selected from dropdown value
-02-03-2026 20:19:01 INFO  Homepage started to dropdown clicking
-02-03-2026 20:19:01 INFO  Homepage waiting for to city dropdown
-02-03-2026 20:19:01 INFO  Homepage clicked on to city dropdown
-02-03-2026 20:19:01 INFO  CommonActions Clicking dropdown value
-02-03-2026 20:19:16 ERROR Homepage Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),'Flights from ')]/child::b[text()='Chennai'] (tried for 10 second(s) with 500 milliseconds interval)
+03-03-2026 40:11:31 INFO  TC03 ----------------------------------------Started Testing-------------------------------------
+03-03-2026 40:11:32 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
+03-03-2026 40:11:44 INFO  Homepage waiting for from dropdown
+03-03-2026 40:11:44 INFO  CommonActions Clicking dropdown value
+03-03-2026 40:11:44 INFO  Homepage selected from dropdown value
+03-03-2026 40:11:44 INFO  Homepage started to dropdown clicking
+03-03-2026 40:11:44 INFO  Homepage waiting for to city dropdown
+03-03-2026 40:11:44 INFO  Homepage clicked on to city dropdown
+03-03-2026 40:11:44 INFO  CommonActions Clicking dropdown value
+03-03-2026 40:11:45 INFO  Homepage Added from date
+03-03-2026 40:11:45 INFO  Homepage clicked on to date
+03-03-2026 40:11:46 ERROR Homepage Element <p> is not clickable at point (772,367) because another element <span class="coachmark"> obscures it
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.3, moz:accessibilityChecks: false, moz:buildID: 20260203002554, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14080, moz:profile: C:\Users\amank\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: cd9ec1a0-03d5-45fa-a48c-1678abafbd32
-02-03-2026 20:19:16 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------
-02-03-2026 20:19:18 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
-02-03-2026 20:19:27 INFO  Homepage waiting for from dropdown
-02-03-2026 20:19:27 INFO  CommonActions Clicking dropdown value
-02-03-2026 20:19:27 INFO  Homepage selected from dropdown value
-02-03-2026 20:19:27 INFO  Homepage started to dropdown clicking
-02-03-2026 20:19:27 INFO  Homepage waiting for to city dropdown
-02-03-2026 20:19:27 INFO  Homepage clicked on to city dropdown
-02-03-2026 20:19:27 INFO  CommonActions Clicking dropdown value
-02-03-2026 20:19:43 ERROR Homepage Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),'Flights from ')]/child::b[text()='Delhi'] (tried for 10 second(s) with 500 milliseconds interval)
+Command: [c38c2783-c1c7-46e4-8b3a-af5dfddb6666, clickElement {id=271337a1-829e-491c-b46b-5e2878d821d7}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.3, moz:accessibilityChecks: false, moz:buildID: 20260203002554, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22596, moz:profile: C:\Users\amank\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (c38c2783-c1c7-46e4-8b3a-af5dfddb6666)] -> xpath: //p[text()='6']]
+Session ID: c38c2783-c1c7-46e4-8b3a-af5dfddb6666
+03-03-2026 41:11:06 ERROR Homepage Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),'Flights from ')]/child::b[text()='Chennai'] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.3, moz:accessibilityChecks: false, moz:buildID: 20260203002554, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18240, moz:profile: C:\Users\amank\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 6b3dee67-8636-4264-814f-f7c51e0c8940
-02-03-2026 20:19:43 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------
-02-03-2026 21:19:09 INFO  TC03 ----------------------------------------Started Testing-------------------------------------
-02-03-2026 21:19:10 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
-02-03-2026 21:19:20 INFO  Homepage waiting for from dropdown
-02-03-2026 21:19:20 INFO  CommonActions Clicking dropdown value
-02-03-2026 21:19:20 INFO  Homepage selected from dropdown value
-02-03-2026 21:19:20 INFO  Homepage started to dropdown clicking
-02-03-2026 21:19:20 INFO  Homepage waiting for to city dropdown
-02-03-2026 21:19:20 INFO  Homepage clicked on to city dropdown
-02-03-2026 21:19:21 INFO  CommonActions Clicking dropdown value
-02-03-2026 21:19:45 ERROR Homepage Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),'Flights from ')]/child::b[text()='Chennai'] (tried for 20 second(s) with 500 milliseconds interval)
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.3, moz:accessibilityChecks: false, moz:buildID: 20260203002554, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 22596, moz:profile: C:\Users\amank\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: c38c2783-c1c7-46e4-8b3a-af5dfddb6666
+03-03-2026 41:11:07 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------
+03-03-2026 41:11:08 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
+03-03-2026 41:11:18 INFO  Homepage waiting for from dropdown
+03-03-2026 41:11:18 INFO  CommonActions Clicking dropdown value
+03-03-2026 41:11:18 INFO  Homepage selected from dropdown value
+03-03-2026 41:11:18 INFO  Homepage started to dropdown clicking
+03-03-2026 41:11:18 INFO  Homepage waiting for to city dropdown
+03-03-2026 41:11:18 INFO  Homepage clicked on to city dropdown
+03-03-2026 41:11:18 INFO  CommonActions Clicking dropdown value
+03-03-2026 41:11:19 INFO  Homepage Added from date
+03-03-2026 41:11:19 INFO  Homepage clicked on to date
+03-03-2026 41:11:20 ERROR Homepage Element <p> is not clickable at point (772,367) because another element <span class="coachmark"> obscures it
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.3, moz:accessibilityChecks: false, moz:buildID: 20260203002554, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19072, moz:profile: C:\Users\amank\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 09040175-54a1-4540-8f6e-81653b10506e
-02-03-2026 21:19:46 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------
-02-03-2026 21:19:48 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
-02-03-2026 21:19:56 INFO  Homepage waiting for from dropdown
-02-03-2026 21:19:56 INFO  CommonActions Clicking dropdown value
-02-03-2026 21:19:56 INFO  Homepage selected from dropdown value
-02-03-2026 21:19:56 INFO  Homepage started to dropdown clicking
-02-03-2026 21:19:56 INFO  Homepage waiting for to city dropdown
-02-03-2026 21:19:56 INFO  Homepage clicked on to city dropdown
-02-03-2026 21:19:57 INFO  CommonActions Clicking dropdown value
-02-03-2026 22:19:22 ERROR Homepage Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),'Flights from ')]/child::b[text()='Delhi'] (tried for 20 second(s) with 500 milliseconds interval)
+Command: [64444fcd-431c-48c4-a5db-0e6673f4d446, clickElement {id=bc718d9f-577b-41ea-a667-ee6d1deef65f}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.3, moz:accessibilityChecks: false, moz:buildID: 20260203002554, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21840, moz:profile: C:\Users\amank\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (64444fcd-431c-48c4-a5db-0e6673f4d446)] -> xpath: //p[text()='6']]
+Session ID: 64444fcd-431c-48c4-a5db-0e6673f4d446
+03-03-2026 41:11:40 ERROR Homepage Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),'Flights from ')]/child::b[text()='New Delhi'] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.3, moz:accessibilityChecks: false, moz:buildID: 20260203002554, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2472, moz:profile: C:\Users\amank\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 12a69360-2212-43ff-a5e8-7269a05f318d
-02-03-2026 22:19:22 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------
-02-03-2026 25:19:31 INFO  TC03 ----------------------------------------Started Testing-------------------------------------
-02-03-2026 25:19:44 INFO  TC03 ----------------------------------------Started Testing-------------------------------------
-02-03-2026 26:19:04 INFO  TC03 ----------------------------------------Started Testing-------------------------------------
-02-03-2026 26:19:05 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
-02-03-2026 26:19:15 INFO  Homepage waiting for from dropdown
-02-03-2026 26:19:15 INFO  CommonActions Clicking dropdown value
-02-03-2026 26:19:16 INFO  Homepage selected from dropdown value
-02-03-2026 26:19:16 INFO  Homepage started to dropdown clicking
-02-03-2026 26:19:16 INFO  Homepage waiting for to city dropdown
-02-03-2026 26:19:16 INFO  Homepage clicked on to city dropdown
-02-03-2026 26:19:16 INFO  CommonActions Clicking dropdown value
-02-03-2026 26:19:21 INFO  Homepage Flights from Chennai to Hyderabad, and back
-02-03-2026 26:19:22 INFO  Homepage Chennai
-02-03-2026 26:19:22 INFO  Homepage Hyderabad
-02-03-2026 26:19:22 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------
-02-03-2026 26:19:24 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
-02-03-2026 26:19:32 INFO  Homepage waiting for from dropdown
-02-03-2026 26:19:32 INFO  CommonActions Clicking dropdown value
-02-03-2026 26:19:32 INFO  Homepage selected from dropdown value
-02-03-2026 26:19:32 INFO  Homepage started to dropdown clicking
-02-03-2026 26:19:32 INFO  Homepage waiting for to city dropdown
-02-03-2026 26:19:32 INFO  Homepage clicked on to city dropdown
-02-03-2026 26:19:33 INFO  CommonActions Clicking dropdown value
-02-03-2026 26:19:56 ERROR Homepage Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),'Flights from ')]/child::b[text()='Delhi'] (tried for 20 second(s) with 500 milliseconds interval)
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.3, moz:accessibilityChecks: false, moz:buildID: 20260203002554, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21840, moz:profile: C:\Users\amank\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 64444fcd-431c-48c4-a5db-0e6673f4d446
+03-03-2026 41:11:41 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------
+03-03-2026 46:11:04 INFO  TC03 ----------------------------------------Started Testing-------------------------------------
+03-03-2026 46:11:06 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
+03-03-2026 46:11:36 ERROR Homepage Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='From'] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '4.18.1', revision: 'b1d3319b48'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.3, moz:accessibilityChecks: false, moz:buildID: 20260203002554, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13244, moz:profile: C:\Users\amank\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 20ab1e20-92bd-4330-994a-5a7041aea757
-02-03-2026 26:19:57 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------
-02-03-2026 27:19:59 INFO  TC03 ----------------------------------------Started Testing-------------------------------------
-02-03-2026 28:19:00 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
-02-03-2026 28:19:10 INFO  Homepage waiting for from dropdown
-02-03-2026 28:19:11 INFO  CommonActions Clicking dropdown value
-02-03-2026 28:19:11 INFO  Homepage selected from dropdown value
-02-03-2026 28:19:11 INFO  Homepage started to dropdown clicking
-02-03-2026 28:19:11 INFO  Homepage waiting for to city dropdown
-02-03-2026 28:19:11 INFO  Homepage clicked on to city dropdown
-02-03-2026 28:19:11 INFO  CommonActions Clicking dropdown value
-02-03-2026 28:19:16 INFO  Homepage Flights from Chennai to Hyderabad, and back
-02-03-2026 28:19:16 INFO  Homepage Chennai
-02-03-2026 28:19:17 INFO  Homepage Hyderabad
-02-03-2026 28:19:17 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------
-02-03-2026 28:19:47 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
-02-03-2026 28:19:58 INFO  Homepage waiting for from dropdown
-02-03-2026 28:19:58 INFO  CommonActions Clicking dropdown value
-02-03-2026 28:19:58 INFO  Homepage selected from dropdown value
-02-03-2026 28:19:58 INFO  Homepage started to dropdown clicking
-02-03-2026 28:19:58 INFO  Homepage waiting for to city dropdown
-02-03-2026 28:19:59 INFO  Homepage clicked on to city dropdown
-02-03-2026 28:19:59 INFO  CommonActions Clicking dropdown value
-02-03-2026 29:19:06 INFO  Homepage Flights from New Delhi to Chennai, and back
-02-03-2026 29:19:06 INFO  Homepage New Delhi
-02-03-2026 29:19:06 INFO  Homepage Chennai
-02-03-2026 29:19:06 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.3, moz:accessibilityChecks: false, moz:buildID: 20260203002554, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7040, moz:profile: C:\Users\amank\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 8c8fd4b6-5348-49f5-8df3-9585f352b1c9
+03-03-2026 46:11:57 ERROR Homepage Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),'Flights from ')]/child::b[text()='Chennai'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.3, moz:accessibilityChecks: false, moz:buildID: 20260203002554, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7040, moz:profile: C:\Users\amank\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 8c8fd4b6-5348-49f5-8df3-9585f352b1c9
+03-03-2026 46:11:57 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------
+03-03-2026 46:11:58 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
+03-03-2026 47:11:29 ERROR Homepage Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='From'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.3, moz:accessibilityChecks: false, moz:buildID: 20260203002554, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1776, moz:profile: C:\Users\amank\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 15fe8610-926e-4b21-83c1-db7f88f8d93b
+03-03-2026 47:11:49 ERROR Homepage Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),'Flights from ')]/child::b[text()='New Delhi'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.3, moz:accessibilityChecks: false, moz:buildID: 20260203002554, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1776, moz:profile: C:\Users\amank\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 15fe8610-926e-4b21-83c1-db7f88f8d93b
+03-03-2026 47:11:50 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------
+03-03-2026 51:11:47 INFO  TC03 ----------------------------------------Started Testing-------------------------------------
+03-03-2026 51:11:48 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
+03-03-2026 51:11:59 INFO  Homepage waiting for from dropdown
+03-03-2026 51:11:59 INFO  CommonActions Clicking dropdown value
+03-03-2026 51:11:59 INFO  Homepage selected from dropdown value
+03-03-2026 51:11:59 INFO  Homepage started to dropdown clicking
+03-03-2026 51:11:59 INFO  Homepage waiting for to city dropdown
+03-03-2026 51:11:59 INFO  Homepage clicked on to city dropdown
+03-03-2026 51:11:59 INFO  CommonActions Clicking dropdown value
+03-03-2026 52:11:04 ERROR Homepage Failed to decode response from marionette
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [c1df9728-2a8b-4d5a-8e17-965ee205be70, findElement {value=//span[contains(text(),'Flights from ')]/child::b[text()='Chennai'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.3, moz:accessibilityChecks: false, moz:buildID: 20260203002554, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23480, moz:profile: C:\Users\amank\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: c1df9728-2a8b-4d5a-8e17-965ee205be70
+03-03-2026 52:11:04 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------
+03-03-2026 53:11:15 INFO  TC03 ----------------------------------------Started Testing-------------------------------------
+03-03-2026 53:11:17 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
+03-03-2026 53:11:27 INFO  Homepage waiting for from dropdown
+03-03-2026 53:11:27 INFO  CommonActions Clicking dropdown value
+03-03-2026 53:11:28 INFO  Homepage selected from dropdown value
+03-03-2026 53:11:28 INFO  Homepage started to dropdown clicking
+03-03-2026 53:11:28 INFO  Homepage waiting for to city dropdown
+03-03-2026 53:11:28 INFO  Homepage clicked on to city dropdown
+03-03-2026 53:11:28 INFO  CommonActions Clicking dropdown value
+03-03-2026 53:11:33 INFO  Homepage Flights from Chennai to Hyderabad, and back
+03-03-2026 53:11:33 INFO  Homepage Chennai
+03-03-2026 53:11:33 INFO  Homepage Hyderabad
+03-03-2026 53:11:34 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------
+03-03-2026 53:11:36 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
+03-03-2026 53:11:45 INFO  Homepage waiting for from dropdown
+03-03-2026 53:11:45 INFO  CommonActions Clicking dropdown value
+03-03-2026 53:11:45 INFO  Homepage selected from dropdown value
+03-03-2026 53:11:45 INFO  Homepage started to dropdown clicking
+03-03-2026 53:11:45 INFO  Homepage waiting for to city dropdown
+03-03-2026 53:11:45 INFO  Homepage clicked on to city dropdown
+03-03-2026 53:11:45 INFO  CommonActions Clicking dropdown value
+03-03-2026 53:11:51 INFO  Homepage Flights from New Delhi to Chennai, and back
+03-03-2026 53:11:51 INFO  Homepage New Delhi
+03-03-2026 53:11:51 INFO  Homepage Chennai
+03-03-2026 53:11:51 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------

@@ -50,10 +50,20 @@ public abstract class Setup {
                 " - " + method.getName());
         logger.info("---------------------------------Executing {}------------------------------", method.getName());
         driver=DriverFactory.getDriver(browserName);
+        String appName=System.getProperty("Application_Name");
         context.setAttribute("driver",driver);
         context.setAttribute("testcase",method.getName());
-        String url= properties.getProperty("url");
-        driver.get(url);
+        System.out.println(appName);
+        if(appName.equalsIgnoreCase("makemytrip"))
+        {
+        String url= properties.getProperty("makemytrip_url");
+            driver.get(url);
+        }
+        else {
+            String url= properties.getProperty("goibibo_url");
+            driver.get(url);
+        }
+
         extentTest=extentReports.createTest(method.getName());
         context.setAttribute("extentTest",extentTest);
         pdfReporter.set(new PDFReportGenerator());
