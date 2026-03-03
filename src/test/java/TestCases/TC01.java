@@ -11,11 +11,11 @@ import java.io.IOException;
 
 public class TC01 extends Setup {
     Logger logger= LogManager.getLogger(this.getClass());
-    @Test
-    public void TC01_Verify_UserLogin() throws IOException {
+    @Test(dataProvider = "dataProvider", dataProviderClass = CommonUtilities.Dataprovider.class)
+    public void TC01_Verify_UserLogin(String username, String password) throws IOException {
         pdfReportGenerator.addCoverPage("TC01_Verify_UserLogin","Verify User is able to login to MakeMyTrip application with valid credentials");
         logger.info("verifying step 1");
-        extentTest.info("Started Test Case");
+        extentTest.info("Started Test Case with username "+username+" Password "+password);
         extentTest.pass("Login Successful");
         logger.info("Login successful");
         StepLogger stepLogger=new StepLogger(driver,pdfReportGenerator);

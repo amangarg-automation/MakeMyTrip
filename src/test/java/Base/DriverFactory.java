@@ -30,6 +30,7 @@ public class DriverFactory {
                     pref.put("profile.default_content_setting_values.geolocation",2);
                     options.setExperimentalOption("prefs",pref);
                     driver.set(new ChromeDriver(options));
+                    driver.get().manage().deleteAllCookies();
                     break;
                 case "edge":
                     EdgeOptions edgeOptions=new EdgeOptions();
@@ -42,6 +43,7 @@ public class DriverFactory {
                     FirefoxOptions firefoxOptions=new FirefoxOptions();
                     firefoxOptions.addArguments("-private");
                     driver.set(new FirefoxDriver(firefoxOptions));
+                    driver.get().manage().deleteAllCookies();
                     driver.get().manage().window().maximize();
                     break;
                 default: throw new RuntimeException("No Browser with name "+browserName+" is found");

@@ -85,7 +85,7 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <xmlSuiteFile>testng.xml</xmlSuiteFile>
+        <xmlName>testng.xml</xmlName>
     </properties>
     <profiles>
         <profile>
@@ -106,7 +106,7 @@
                 <version>3.2.5</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>${xmlSuiteFile}</suiteXmlFile>
+                        <suiteXmlFile>${xmlName}</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
