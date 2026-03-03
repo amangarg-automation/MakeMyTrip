@@ -10,7 +10,7 @@ pipeline {
     parameters {
         choice(
             name: 'Application',
-            choices: appname.keySet().join("\n"),
+            choices: appname.keySet() as List,
             description: 'Select which application to test'
         )
     }
