@@ -33,3 +33,4 @@ post{always{
 archiveArtifacts artifacts:'PDFReports/**/*.pdf,ExtentReports/tests/*.html', allowEmptyArchive:true
 }
 }
+}
