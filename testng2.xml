@@ -1,9 +1,8 @@
 <suite name="tests">
     <test name="sequential">
-        <parameter name="browser" value="chrome"/>
+        <parameter name="browser" value="firefox"/>
         <classes>
-            <class name="TestCases.TC01"/>
-            <class name="TestCases.TC02"/>
+            <class name="TestCases.TC03"/>
         </classes>
     </test>
 </suite>

@@ -20,6 +20,7 @@ public class PDFReportGenerator {
     }
     float addRow(String label,String value, float x, float y, float labelWidth, float valueWidth, float rowHeight) throws IOException {
         label=label.replaceAll("\n"," ");
+        value=value.replaceAll("\n"," ");
         String[] valueLines=toLines(value);
         float totalRowHeight=rowHeight;
         if(valueLines.length>1)

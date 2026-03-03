@@ -1,256 +1,117 @@
-28-02-2026 46:05:49 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 48:05:42 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 49:05:48 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 50:05:31 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 51:05:10 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 51:05:11 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 51:05:15 INFO  TC01 verifying step 1
-28-02-2026 51:05:15 INFO  TC01 Login successful
-28-02-2026 51:05:15 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 52:05:14 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 52:05:14 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 52:05:18 INFO  TC01 verifying step 1
-28-02-2026 52:05:18 INFO  TC01 Login successful
-28-02-2026 52:05:18 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 55:05:00 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 55:05:00 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 55:05:04 INFO  TC01 verifying step 1
-28-02-2026 55:05:04 INFO  TC01 Login successful
-28-02-2026 55:05:04 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 58:05:27 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 58:05:28 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 58:05:32 INFO  TC01 verifying step 1
-28-02-2026 58:05:32 INFO  TC01 Login successful
-28-02-2026 58:05:32 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 59:05:23 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 59:05:24 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 59:05:26 INFO  TC01 verifying step 1
-28-02-2026 59:05:26 INFO  TC01 Login successful
-28-02-2026 59:05:26 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 07:06:45 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 07:06:45 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 07:06:49 INFO  TC01 verifying step 1
-28-02-2026 07:06:49 INFO  TC01 Login successful
-28-02-2026 07:06:50 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 10:06:33 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 10:06:34 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 10:06:37 INFO  TC01 verifying step 1
-28-02-2026 10:06:37 INFO  TC01 Login successful
-28-02-2026 10:06:38 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 12:06:40 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 12:06:41 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 12:06:44 INFO  TC01 verifying step 1
-28-02-2026 12:06:44 INFO  TC01 Login successful
-28-02-2026 12:06:45 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 14:06:43 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 14:06:44 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 14:06:49 INFO  TC01 verifying step 1
-28-02-2026 14:06:49 INFO  TC01 Login successful
-28-02-2026 14:06:50 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 53:08:47 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 53:08:47 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 53:08:52 INFO  TC01 verifying step 1
-28-02-2026 53:08:52 INFO  TC01 Login successful
-28-02-2026 53:08:52 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 00:10:39 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 00:10:39 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 00:10:46 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 02:10:35 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 02:10:35 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 02:10:40 INFO  TC01 verifying step 1
-28-02-2026 02:10:40 INFO  TC01 Login successful
-28-02-2026 02:10:42 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 04:10:36 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 04:10:37 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 04:10:39 INFO  TC01 verifying step 1
-28-02-2026 04:10:39 INFO  TC01 Login successful
-28-02-2026 04:10:40 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 05:10:03 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 05:10:04 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 05:10:07 INFO  TC01 verifying step 1
-28-02-2026 05:10:07 INFO  TC01 Login successful
-28-02-2026 05:10:08 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 06:10:14 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 06:10:14 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 06:10:19 INFO  TC01 verifying step 1
-28-02-2026 06:10:19 INFO  TC01 Login successful
-28-02-2026 06:10:20 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 07:10:52 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 07:10:52 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 07:10:58 INFO  TC01 verifying step 1
-28-02-2026 07:10:58 INFO  TC01 Login successful
-28-02-2026 07:10:59 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 11:10:02 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 11:10:03 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 11:10:08 INFO  TC01 verifying step 1
-28-02-2026 11:10:08 INFO  TC01 Login successful
-28-02-2026 11:10:09 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 14:10:37 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 14:10:38 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 14:10:45 INFO  TC01 verifying step 1
-28-02-2026 14:10:45 INFO  TC01 Login successful
-28-02-2026 14:10:46 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 18:10:37 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 18:10:38 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 18:10:43 INFO  TC01 verifying step 1
-28-02-2026 18:10:43 INFO  TC01 Login successful
-28-02-2026 18:10:44 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 21:10:58 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 21:10:59 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 22:10:05 INFO  TC01 verifying step 1
-28-02-2026 22:10:05 INFO  TC01 Login successful
-28-02-2026 22:10:06 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 24:10:55 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 24:10:55 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 25:10:01 INFO  TC01 verifying step 1
-28-02-2026 25:10:01 INFO  TC01 Login successful
-28-02-2026 25:10:02 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 25:10:55 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 25:10:55 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 26:10:01 INFO  TC01 verifying step 1
-28-02-2026 26:10:01 INFO  TC01 Login successful
-28-02-2026 26:10:02 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 27:10:48 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 27:10:49 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 27:10:54 INFO  TC01 verifying step 1
-28-02-2026 27:10:54 INFO  TC01 Login successful
-28-02-2026 27:10:55 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 29:10:13 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 29:10:13 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 29:10:19 INFO  TC01 verifying step 1
-28-02-2026 29:10:19 INFO  TC01 Login successful
-28-02-2026 29:10:19 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 30:10:26 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 30:10:26 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 30:10:32 INFO  TC01 verifying step 1
-28-02-2026 30:10:32 INFO  TC01 Login successful
-28-02-2026 30:10:33 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 32:10:33 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 32:10:33 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 32:10:40 INFO  TC01 verifying step 1
-28-02-2026 32:10:40 INFO  TC01 Login successful
-28-02-2026 32:10:41 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 33:10:24 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 33:10:25 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 33:10:31 INFO  TC01 verifying step 1
-28-02-2026 33:10:31 INFO  TC01 Login successful
-28-02-2026 33:10:31 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 35:10:00 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 35:10:01 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 35:10:07 INFO  TC01 verifying step 1
-28-02-2026 35:10:07 INFO  TC01 Login successful
-28-02-2026 35:10:07 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 37:10:10 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 37:10:11 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 37:10:18 INFO  TC01 verifying step 1
-28-02-2026 37:10:18 INFO  TC01 Login successful
-28-02-2026 37:10:19 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 23:11:34 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 23:11:35 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 23:11:40 INFO  TC01 verifying step 1
-28-02-2026 23:11:40 INFO  TC01 Login successful
-28-02-2026 23:11:41 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 23:11:41 INFO  TC02 ---------------------------------Executing TC02_Verify_UserLogin------------------------------
-28-02-2026 26:11:42 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 26:11:42 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 26:11:48 INFO  TC01 verifying step 1
-28-02-2026 26:11:48 INFO  TC01 Login successful
-28-02-2026 26:11:48 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 26:11:48 INFO  TC02 ---------------------------------Executing TC02_Verify_UserLogin------------------------------
-28-02-2026 30:11:44 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 30:11:44 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 30:11:49 INFO  TC01 verifying step 1
-28-02-2026 30:11:49 INFO  TC01 Login successful
-28-02-2026 30:11:50 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 30:11:50 INFO  TC02 ---------------------------------Executing TC02_Verify_UserLogin------------------------------
-28-02-2026 37:11:42 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 37:11:43 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 37:11:46 INFO  TC01 verifying step 1
-28-02-2026 37:11:46 INFO  TC01 Login successful
-28-02-2026 37:11:49 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 37:11:49 INFO  TC02 ---------------------------------Executing TC02_Verify_UserLogin------------------------------
-28-02-2026 37:11:53 INFO  TC02 verifying step 1
-28-02-2026 37:11:53 INFO  TC02 Login successful
-28-02-2026 37:11:54 INFO  TC02 -----------------------------------------------Completed Test Case TC02_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 42:11:57 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 42:11:57 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 43:11:05 INFO  TC01 verifying step 1
-28-02-2026 43:11:05 INFO  TC01 Login successful
-28-02-2026 43:11:05 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 43:11:06 INFO  TC02 ---------------------------------Executing TC02_Verify_UserLogin------------------------------
-28-02-2026 43:11:10 INFO  TC02 verifying step 1
-28-02-2026 43:11:10 INFO  TC02 Login successful
-28-02-2026 43:11:11 INFO  TC02 -----------------------------------------------Completed Test Case TC02_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 45:11:00 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 45:11:00 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 45:11:04 INFO  TC01 verifying step 1
-28-02-2026 45:11:04 INFO  TC01 Login successful
-28-02-2026 45:11:05 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 45:11:05 INFO  TC02 ---------------------------------Executing TC02_Verify_UserLogin------------------------------
-28-02-2026 45:11:10 INFO  TC02 verifying step 1
-28-02-2026 45:11:10 INFO  TC02 Login successful
-28-02-2026 45:11:11 INFO  TC02 -----------------------------------------------Completed Test Case TC02_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 47:11:29 INFO  TC02 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 47:11:29 INFO  TC02 ---------------------------------Executing TC02_Verify_UserLogin------------------------------
-28-02-2026 47:11:29 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 47:11:36 INFO  TC01 verifying step 1
-28-02-2026 47:11:36 INFO  TC02 verifying step 1
-28-02-2026 47:11:36 INFO  TC01 Login successful
-28-02-2026 47:11:36 INFO  TC02 Login successful
-28-02-2026 47:11:37 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 47:11:37 INFO  TC02 -----------------------------------------------Completed Test Case TC02_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 51:11:06 INFO  TC02 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 51:11:07 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 51:11:07 INFO  TC02 ---------------------------------Executing TC02_Verify_UserLogin------------------------------
-28-02-2026 51:11:11 INFO  TC01 verifying step 1
-28-02-2026 51:11:11 INFO  TC02 verifying step 1
-28-02-2026 51:11:11 INFO  TC02 Login successful
-28-02-2026 51:11:11 INFO  TC01 Login successful
-28-02-2026 51:11:15 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 51:11:15 INFO  TC02 -----------------------------------------------Completed Test Case TC02_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 52:11:56 INFO  TC02 ----------------------------------------Started Testing-------------------------------------
-28-02-2026 52:11:56 INFO  TC02 ---------------------------------Executing TC02_Verify_UserLogin------------------------------
-28-02-2026 52:11:56 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-28-02-2026 53:11:04 INFO  TC02 verifying step 1
-28-02-2026 53:11:04 INFO  TC01 verifying step 1
-28-02-2026 53:11:04 INFO  TC02 Login successful
-28-02-2026 53:11:04 INFO  TC01 Login successful
-28-02-2026 53:11:05 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-28-02-2026 53:11:05 INFO  TC02 -----------------------------------------------Completed Test Case TC02_Verify_UserLogin Execution-----------------------------------------------
-01-03-2026 58:17:23 INFO  TC02 ----------------------------------------Started Testing-------------------------------------
-01-03-2026 58:17:23 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-01-03-2026 58:17:23 INFO  TC02 ---------------------------------Executing TC02_Verify_UserLogin------------------------------
-01-03-2026 58:17:28 INFO  TC02 verifying step 1
-01-03-2026 58:17:28 INFO  TC02 Login successful
-01-03-2026 58:17:30 INFO  TC01 verifying step 1
-01-03-2026 58:17:30 INFO  TC01 Login successful
-01-03-2026 58:17:31 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-01-03-2026 58:17:32 INFO  TC02 -----------------------------------------------Completed Test Case TC02_Verify_UserLogin Execution-----------------------------------------------
-01-03-2026 58:17:32 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-01-03-2026 00:18:02 INFO  TC02 ----------------------------------------Started Testing-------------------------------------
-01-03-2026 00:18:02 INFO  TC02 ---------------------------------Executing TC02_Verify_UserLogin------------------------------
-01-03-2026 00:18:02 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-01-03-2026 00:18:07 INFO  TC02 verifying step 1
-01-03-2026 00:18:07 INFO  TC02 Login successful
-01-03-2026 00:18:10 INFO  TC01 verifying step 1
-01-03-2026 00:18:10 INFO  TC01 Login successful
-01-03-2026 00:18:11 INFO  TC02 -----------------------------------------------Completed Test Case TC02_Verify_UserLogin Execution-----------------------------------------------
-01-03-2026 00:18:11 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-01-03-2026 00:18:12 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-01-03-2026 00:18:12 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-01-03-2026 00:18:16 INFO  TC01 verifying step 1
-01-03-2026 00:18:16 INFO  TC01 Login successful
-01-03-2026 00:18:17 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-01-03-2026 00:18:17 INFO  TC02 ---------------------------------Executing TC02_Verify_UserLogin------------------------------
-01-03-2026 00:18:22 INFO  TC02 verifying step 1
-01-03-2026 00:18:22 INFO  TC02 Login successful
-01-03-2026 00:18:22 INFO  TC02 -----------------------------------------------Completed Test Case TC02_Verify_UserLogin Execution-----------------------------------------------
-01-03-2026 05:18:03 INFO  TC01 ----------------------------------------Started Testing-------------------------------------
-01-03-2026 05:18:03 INFO  TC01 ---------------------------------Executing TC01_Verify_UserLogin------------------------------
-01-03-2026 05:18:09 INFO  TC01 verifying step 1
-01-03-2026 05:18:09 INFO  TC01 Login successful
-01-03-2026 05:18:10 INFO  TC01 -----------------------------------------------Completed Test Case TC01_Verify_UserLogin Execution-----------------------------------------------
-01-03-2026 05:18:10 INFO  TC02 ---------------------------------Executing TC02_Verify_UserLogin------------------------------
-01-03-2026 05:18:14 INFO  TC02 verifying step 1
-01-03-2026 05:18:14 INFO  TC02 Login successful
-01-03-2026 05:18:15 INFO  TC02 -----------------------------------------------Completed Test Case TC02_Verify_UserLogin Execution-----------------------------------------------
+02-03-2026 19:19:50 INFO  TC03 ----------------------------------------Started Testing-------------------------------------
+02-03-2026 19:19:50 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
+02-03-2026 20:19:00 INFO  Homepage waiting for from dropdown
+02-03-2026 20:19:00 INFO  CommonActions Clicking dropdown value
+02-03-2026 20:19:01 INFO  Homepage selected from dropdown value
+02-03-2026 20:19:01 INFO  Homepage started to dropdown clicking
+02-03-2026 20:19:01 INFO  Homepage waiting for to city dropdown
+02-03-2026 20:19:01 INFO  Homepage clicked on to city dropdown
+02-03-2026 20:19:01 INFO  CommonActions Clicking dropdown value
+02-03-2026 20:19:16 ERROR Homepage Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),'Flights from ')]/child::b[text()='Chennai'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.3, moz:accessibilityChecks: false, moz:buildID: 20260203002554, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14080, moz:profile: C:\Users\amank\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: cd9ec1a0-03d5-45fa-a48c-1678abafbd32
+02-03-2026 20:19:16 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------
+02-03-2026 20:19:18 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
+02-03-2026 20:19:27 INFO  Homepage waiting for from dropdown
+02-03-2026 20:19:27 INFO  CommonActions Clicking dropdown value
+02-03-2026 20:19:27 INFO  Homepage selected from dropdown value
+02-03-2026 20:19:27 INFO  Homepage started to dropdown clicking
+02-03-2026 20:19:27 INFO  Homepage waiting for to city dropdown
+02-03-2026 20:19:27 INFO  Homepage clicked on to city dropdown
+02-03-2026 20:19:27 INFO  CommonActions Clicking dropdown value
+02-03-2026 20:19:43 ERROR Homepage Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),'Flights from ')]/child::b[text()='Delhi'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.3, moz:accessibilityChecks: false, moz:buildID: 20260203002554, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18240, moz:profile: C:\Users\amank\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 6b3dee67-8636-4264-814f-f7c51e0c8940
+02-03-2026 20:19:43 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------
+02-03-2026 21:19:09 INFO  TC03 ----------------------------------------Started Testing-------------------------------------
+02-03-2026 21:19:10 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
+02-03-2026 21:19:20 INFO  Homepage waiting for from dropdown
+02-03-2026 21:19:20 INFO  CommonActions Clicking dropdown value
+02-03-2026 21:19:20 INFO  Homepage selected from dropdown value
+02-03-2026 21:19:20 INFO  Homepage started to dropdown clicking
+02-03-2026 21:19:20 INFO  Homepage waiting for to city dropdown
+02-03-2026 21:19:20 INFO  Homepage clicked on to city dropdown
+02-03-2026 21:19:21 INFO  CommonActions Clicking dropdown value
+02-03-2026 21:19:45 ERROR Homepage Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),'Flights from ')]/child::b[text()='Chennai'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.3, moz:accessibilityChecks: false, moz:buildID: 20260203002554, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19072, moz:profile: C:\Users\amank\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 09040175-54a1-4540-8f6e-81653b10506e
+02-03-2026 21:19:46 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------
+02-03-2026 21:19:48 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
+02-03-2026 21:19:56 INFO  Homepage waiting for from dropdown
+02-03-2026 21:19:56 INFO  CommonActions Clicking dropdown value
+02-03-2026 21:19:56 INFO  Homepage selected from dropdown value
+02-03-2026 21:19:56 INFO  Homepage started to dropdown clicking
+02-03-2026 21:19:56 INFO  Homepage waiting for to city dropdown
+02-03-2026 21:19:56 INFO  Homepage clicked on to city dropdown
+02-03-2026 21:19:57 INFO  CommonActions Clicking dropdown value
+02-03-2026 22:19:22 ERROR Homepage Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),'Flights from ')]/child::b[text()='Delhi'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.3, moz:accessibilityChecks: false, moz:buildID: 20260203002554, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2472, moz:profile: C:\Users\amank\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 12a69360-2212-43ff-a5e8-7269a05f318d
+02-03-2026 22:19:22 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------
+02-03-2026 25:19:31 INFO  TC03 ----------------------------------------Started Testing-------------------------------------
+02-03-2026 25:19:44 INFO  TC03 ----------------------------------------Started Testing-------------------------------------
+02-03-2026 26:19:04 INFO  TC03 ----------------------------------------Started Testing-------------------------------------
+02-03-2026 26:19:05 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
+02-03-2026 26:19:15 INFO  Homepage waiting for from dropdown
+02-03-2026 26:19:15 INFO  CommonActions Clicking dropdown value
+02-03-2026 26:19:16 INFO  Homepage selected from dropdown value
+02-03-2026 26:19:16 INFO  Homepage started to dropdown clicking
+02-03-2026 26:19:16 INFO  Homepage waiting for to city dropdown
+02-03-2026 26:19:16 INFO  Homepage clicked on to city dropdown
+02-03-2026 26:19:16 INFO  CommonActions Clicking dropdown value
+02-03-2026 26:19:21 INFO  Homepage Flights from Chennai to Hyderabad, and back
+02-03-2026 26:19:22 INFO  Homepage Chennai
+02-03-2026 26:19:22 INFO  Homepage Hyderabad
+02-03-2026 26:19:22 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------
+02-03-2026 26:19:24 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
+02-03-2026 26:19:32 INFO  Homepage waiting for from dropdown
+02-03-2026 26:19:32 INFO  CommonActions Clicking dropdown value
+02-03-2026 26:19:32 INFO  Homepage selected from dropdown value
+02-03-2026 26:19:32 INFO  Homepage started to dropdown clicking
+02-03-2026 26:19:32 INFO  Homepage waiting for to city dropdown
+02-03-2026 26:19:32 INFO  Homepage clicked on to city dropdown
+02-03-2026 26:19:33 INFO  CommonActions Clicking dropdown value
+02-03-2026 26:19:56 ERROR Homepage Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text(),'Flights from ')]/child::b[text()='Delhi'] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.3, moz:accessibilityChecks: false, moz:buildID: 20260203002554, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13244, moz:profile: C:\Users\amank\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 20ab1e20-92bd-4330-994a-5a7041aea757
+02-03-2026 26:19:57 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------
+02-03-2026 27:19:59 INFO  TC03 ----------------------------------------Started Testing-------------------------------------
+02-03-2026 28:19:00 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
+02-03-2026 28:19:10 INFO  Homepage waiting for from dropdown
+02-03-2026 28:19:11 INFO  CommonActions Clicking dropdown value
+02-03-2026 28:19:11 INFO  Homepage selected from dropdown value
+02-03-2026 28:19:11 INFO  Homepage started to dropdown clicking
+02-03-2026 28:19:11 INFO  Homepage waiting for to city dropdown
+02-03-2026 28:19:11 INFO  Homepage clicked on to city dropdown
+02-03-2026 28:19:11 INFO  CommonActions Clicking dropdown value
+02-03-2026 28:19:16 INFO  Homepage Flights from Chennai to Hyderabad, and back
+02-03-2026 28:19:16 INFO  Homepage Chennai
+02-03-2026 28:19:17 INFO  Homepage Hyderabad
+02-03-2026 28:19:17 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------
+02-03-2026 28:19:47 INFO  TC03 ---------------------------------Executing TC03_Verify_FlightSearch------------------------------
+02-03-2026 28:19:58 INFO  Homepage waiting for from dropdown
+02-03-2026 28:19:58 INFO  CommonActions Clicking dropdown value
+02-03-2026 28:19:58 INFO  Homepage selected from dropdown value
+02-03-2026 28:19:58 INFO  Homepage started to dropdown clicking
+02-03-2026 28:19:58 INFO  Homepage waiting for to city dropdown
+02-03-2026 28:19:59 INFO  Homepage clicked on to city dropdown
+02-03-2026 28:19:59 INFO  CommonActions Clicking dropdown value
+02-03-2026 29:19:06 INFO  Homepage Flights from New Delhi to Chennai, and back
+02-03-2026 29:19:06 INFO  Homepage New Delhi
+02-03-2026 29:19:06 INFO  Homepage Chennai
+02-03-2026 29:19:06 INFO  TC03 -----------------------------------------------Completed Test Case TC03_Verify_FlightSearch Execution-----------------------------------------------

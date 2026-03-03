@@ -21,6 +21,7 @@ import java.util.Properties;
 public abstract class Setup {
     protected WebDriver driver;
     protected static ExtentReports extentReports;
+    public static String sheetName;
     protected ExtentTest extentTest;
     Logger logger= LogManager.getLogger(this.getClass());
     static Properties properties;
@@ -39,6 +40,7 @@ public abstract class Setup {
         extentReports = ExtentManager.getInstance(
                 xmlTest.getSuite().getName()
         );
+        sheetName=properties.getProperty("sheet");
     }
     @Parameters("browser")
     @BeforeMethod
