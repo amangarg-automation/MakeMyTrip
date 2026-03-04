@@ -25,7 +25,7 @@ public class PDFReportGenerator {
         float totalRowHeight=rowHeight;
         if(valueLines.length>1)
         {
-            totalRowHeight=rowHeight*((float) valueLines.length /2);
+            totalRowHeight=rowHeight*((float) valueLines.length);
         }
         contentStream.addRect(x+10,y-totalRowHeight,labelWidth+valueWidth,totalRowHeight);
         contentStream.stroke();

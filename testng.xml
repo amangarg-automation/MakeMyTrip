@@ -1,0 +1,19 @@
+<suite name="tests">
+    <test name="sequential">
+        <listeners>
+        <listener class-name="Listeners.AnnotationTransformer" />
+            <listener class-name="Listeners.TestListener"/>
+        </listeners>
+        <parameter name="browser" value="chrome"/>
+        <groups>
+            <run>
+                <include name="flight booking"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestCases.TC03"/>
+            <class name="TestCases.TC04"/>
+            <class name="TestCases.TC05"/>
+        </classes>
+    </test>
+</suite>

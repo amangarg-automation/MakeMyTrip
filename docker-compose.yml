@@ -1,6 +1,6 @@
 services:
   selenium:
-    image: selenium/standalone-chrome:latest
+    image: selenium/standalone-chrome
     container_name: selenium_makemytrip
     ports:
       - '4444:4444'
@@ -14,7 +14,6 @@ services:
     volumes:
       - ./docker_Extent_report:/app/ExtentReports
       - ./docker_pdf_report:/app/PDFReports
-
 
 
 

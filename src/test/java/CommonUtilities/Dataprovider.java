@@ -14,7 +14,7 @@
     import java.util.*;
     public class Dataprovider {
        @DataProvider(name="dataProvider")
-        public Iterator<Object[]> dataProvider(Method method) {
+        public static Iterator<Object[]> dataProvider(Method method) {
             String sheetName= Setup.sheetName;
             String tcName= method.getName();
             List<Object[]> list=new ArrayList<>();

@@ -8,6 +8,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
+import org.testng.ITestResult;
 import org.testng.annotations.*;
 import org.testng.xml.XmlSuite;
 import org.testng.xml.XmlTest;
@@ -16,26 +17,30 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.lang.reflect.Method;
+import java.net.MalformedURLException;
 import java.util.Properties;
 
 public abstract class Setup {
     protected WebDriver driver;
     protected static ExtentReports extentReports;
     public static String sheetName;
-    protected ExtentTest extentTest;
+    protected ExtentTest getExtentTest()
+    {
+        return extentTestThreadLocal.get();
+    }
     Logger logger= LogManager.getLogger(this.getClass());
     static Properties properties;
     protected ThreadLocal<PDFReportGenerator> pdfReporter=new ThreadLocal<>();
     protected ThreadLocal<ExtentTest> extentTestThreadLocal=new ThreadLocal<>();
     protected PDFReportGenerator pdfReportGenerator;
-    @BeforeSuite
+    @BeforeSuite(alwaysRun = true)
     public void getProperties() throws IOException {
         logger.info("----------------------------------------Started Testing-------------------------------------");
         FileInputStream fis=new FileInputStream("config.properties");
         properties=new Properties();
         properties.load(fis);
     }
-    @BeforeTest
+    @BeforeTest(alwaysRun = true)
     public void startExtent(XmlTest xmlTest) {
         extentReports = ExtentManager.getInstance(
                 xmlTest.getSuite().getName()
@@ -43,14 +48,17 @@ public abstract class Setup {
         sheetName=properties.getProperty("sheet");
     }
     @Parameters("browser")
-    @BeforeMethod
-    public void startBrowser(String browserName, ITestContext context, Method method)
-    {
+    @BeforeMethod(alwaysRun = true)
+    public void startBrowser(String browserName, ITestContext context, Method method) throws MalformedURLException {
         System.out.println("Thread ID: " + Thread.currentThread().getId() +
                 " - " + method.getName());
         logger.info("---------------------------------Executing {}------------------------------", method.getName());
         driver=DriverFactory.getDriver(browserName);
         String appName=System.getProperty("Application_Name");
+        if(appName==null)
+        {
+            appName="makemytrip";
+        }
         context.setAttribute("driver",driver);
         context.setAttribute("testcase",method.getName());
         System.out.println(appName);
@@ -64,15 +72,29 @@ public abstract class Setup {
             driver.get(url);
         }
 
-        extentTest=extentReports.createTest(method.getName());
-        context.setAttribute("extentTest",extentTest);
+        extentTestThreadLocal.set(extentReports.createTest(method.getName()));
+        context.setAttribute("extentTest",getExtentTest());
         pdfReporter.set(new PDFReportGenerator());
         pdfReportGenerator=pdfReporter.get();
     }
-    @AfterMethod
-    public void closeBrowser(Method method) throws IOException {
+    @AfterMethod(alwaysRun = true)
+    public void closeBrowser(Method method, ITestResult result) throws IOException {
         logger.info("-----------------------------------------------Completed Test Case {} Execution-----------------------------------------------", method.getName());
         DriverFactory.closeDriver();
+        if(result.getStatus()==ITestResult.FAILURE)
+        {
+            pdfReportGenerator.addStatusToCoverPage("Fail");
+            getExtentTest().fail("Test Case Failed");
+        }
+        else if(result.getStatus()==ITestResult.SUCCESS)
+        {
+            pdfReportGenerator.addStatusToCoverPage("Pass");
+            getExtentTest().pass("Test Case Passed");
+        }
+        else {
+            pdfReportGenerator.addStatusToCoverPage("Skipped");
+            getExtentTest().info("Test Case Skipped");
+        }
         String timestamp=new java.text.SimpleDateFormat("ddMMyyyy_HH_mm_ss").format(new java.util.Date());
         String reportDir=System.getProperty("user.dir")+"/PDFReports/"+method.getName()+"_"+timestamp;
         File dir=new File(reportDir);
@@ -83,7 +105,7 @@ public abstract class Setup {
         String reportPath=reportDir+"/"+method.getName()+".pdf";
       pdfReportGenerator.save(reportPath);
     }
-    @AfterTest
+    @AfterTest(alwaysRun = true)
     public void flushExtent()
     {
         extentReports.flush();

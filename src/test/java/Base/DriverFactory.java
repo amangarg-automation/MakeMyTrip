@@ -7,15 +7,17 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
 public class DriverFactory {
     private static ThreadLocal<WebDriver> driver=new ThreadLocal<>();
     private DriverFactory(){}
-    public static WebDriver getDriver(String browserName)
-    {
+    public static WebDriver getDriver(String browserName) throws MalformedURLException {
         browserName=browserName.trim().toLowerCase();
         if(driver.get()==null)
         {

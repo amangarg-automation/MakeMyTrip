@@ -9,14 +9,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import java.io.IOException;
+import java.util.Set;
 
 public class Homepage extends CommonElements{
-    String appName=System.getProperty("Application_Name");
-    WaitUtils waitUtils;
+
+    String appName="makemytrip";
+
     public Homepage(WebDriver driver,PDFReportGenerator pdf)
     {
         super(driver,pdf);
-         waitUtils=new WaitUtils(driver);
     }
     Logger logger= LogManager.getLogger(this.getClass());
 
@@ -28,6 +29,7 @@ public class Homepage extends CommonElements{
                 return By.xpath("//span[@class='sc-koXPp bDtzaf']");
             }
         }
+    protected String currentWindowHandle= driver.getWindowHandle();
     private final By from_city=By.id("fromCity");
     private final By to_city=By.id("toCity");
     private final By from_locator=By.xpath("//input[@placeholder='From']");
@@ -36,8 +38,9 @@ public class Homepage extends CommonElements{
     private final By to_locator=By.xpath("//input[@placeholder='To']");
     private final By searchButton=By.xpath("//a[text()='Search']");
     private final By searchText=By.xpath("//span[contains(text(),'Flights from ')]");
-    private final By from_date=By.xpath("//p[text()='3']");
+    private final By from_date=By.xpath("//p[text()='4']");
     private final By return_box=By.xpath("//p[@data-cy='returnDefaultText']");
+    private final By Holi_Cabs_Offer=By.xpath("//p[text()='For Your Holi Trip Back Home:']/ancestor::div[@class='makeFlex cardInnerInfo']/following-sibling::div/descendant::a");
     private By searchResult_from(String fromName) {
         return By.xpath("//span[contains(text(),'Flights from ')]/child::b[text()='" + fromName + "']");
     }
@@ -49,6 +52,7 @@ public class Homepage extends CommonElements{
         try {
             waitUtils.waitForElementToBeClickable(close_login_pop_up_box());
             driver.findElement(close_login_pop_up_box()).click();
+            driver.findElement(By.tagName("body")).click();
             stepLogger.captureStep("Close the login popup", "login pop up should be closed","loging popup is closed","pass");
         return true;
         } catch (RuntimeException e) {
@@ -59,7 +63,6 @@ public class Homepage extends CommonElements{
            }
     public boolean searchForFlights(String from, String to) throws IOException {
         try {
-            driver.findElement(By.tagName("body")).click();
             waitUtils.waitForElementToBeLocated(from_city);
             driver.findElement(from_city).click();
             waitUtils.waitForElementToBeLocated(from_locator);
@@ -111,5 +114,16 @@ public class Homepage extends CommonElements{
             stepLogger.captureStep("Verify Search Results are correct", "Search Result should be correct","Search Results are not correct due to: "+e.getMessage(),"fail");
         return false;
         }
+    }
+    public void clickHoliCabBookNow() throws IOException {
+      try {
+          waitUtils.waitForElementToBeClickable(Holi_Cabs_Offer);
+          driver.findElement(Holi_Cabs_Offer).click();
+          CommonActions.switchToNewWindow(driver, currentWindowHandle);
+          waitUtils.waitForElementToBeLocated(By.xpath("//h2[text()='Enjoy Deals as Colourful as Gulaal']"));
+          stepLogger.captureStep("Navigate to holi cab offer page", "User should be navigated to Holi cab Offer Page", "User is navigated to offer page", "Pass");
+      } catch (RuntimeException e) {
+          stepLogger.captureStep("Navigate to holi cab offer page", "User should be navigated to Holi cab Offer Page", "User is navigated to offer page due to: "+e.getMessage(), "Pass");
+      }
     }
 }
